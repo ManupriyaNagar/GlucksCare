@@ -1,0 +1,54 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --primary-clr: #cc1c54;
+    --secondary-clr: #eca710;
+    --main-clr: #c71d52;
+    --light-clr: #f1e5e5;
+    --heading-clr: #444444;
+    --lightmain-clr: #ce3967;
+    --secondm-clr: #c41c54;
+    --shadow-clr: #c0718b;
+    --hover-clr: #949493;
+    --shadow2-clr: #7d7d7b;
+  }
+}
+
+@layer components {
+  .text-primary {
+    color: var(--primary-clr);
+  }
+  .bg-primary {
+    background-color: var(--primary-clr);
+  }
+  .text-secondary {
+    color: var(--secondary-clr);
+  }
+  .bg-secondary {
+    background-color: var(--secondary-clr);
+  }
+  .text-main {
+    color: var(--main-clr);
+  }
+  .bg-main {
+    background-color: var(--main-clr);
+  }
+  .text-light {
+    color: var(--light-clr);
+  }
+  .bg-light {
+    background-color: var(--light-clr);
+  }
+  .text-heading {
+    color: var(--heading-clr);
+  }
+  .bg-heading {
+    background-color: var(--heading-clr);
+  }
+  .shadow-custom {
+    box-shadow: 4px 4px 10px var(--shadow-clr);
+  }
+}
